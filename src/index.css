@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-gray-50;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: radial-gradient(#fff 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+}
